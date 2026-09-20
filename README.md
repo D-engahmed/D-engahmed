@@ -2,215 +2,300 @@
 
 # Ahmed Abdallah
 
-**AI Engineer · Generative AI · LLM Systems · AI Infrastructure**
-
-Building AI systems across the **model, application, and infrastructure layers**.
+### AI Engineer · Generative AI · LLM Systems · AI Infrastructure
 
 <p>
-  <a href="https://github.com/D-engahmed">GitHub</a> ·
-  <a href="https://www.linkedin.com/in/ahmed-elkossairy/">LinkedIn</a> ·
-  <a href="https://www.kaggle.com/ahmedelkossairy">Kaggle</a>
+<a href="https://github.com/D-engahmed"><img src="https://img.shields.io/badge/GitHub-D--engahmed-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/ahmed-elkossairy/"><img src="https://img.shields.io/badge/LinkedIn-Ahmed_Abdallah-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.kaggle.com/ahmedelkossairy"><img src="https://img.shields.io/badge/Kaggle-AhmedElkossairy-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/></a>
 </p>
+
+![Profile Views](https://komarev.com/ghpvc/?username=D-engahmed&label=Profile%20Views&style=flat-square)
 
 </div>
 
 ---
 
-## Profile
+## About
 
-I am an **AI Engineer and independent AI researcher** focused on designing, implementing, and deploying intelligent systems.
+I'm an **AI Engineer and independent AI researcher** focused on building systems from model fundamentals to production infrastructure.
 
-My work sits at the intersection of:
+My work spans:
 
-- **LLM Engineering** — model architecture, RAG, agents, tool use, fine-tuning, inference, and evaluation.
-- **AI Systems** — production APIs, orchestration, multi-tenant platforms, streaming, security, and observability.
-- **AI Research** — memory and attention mechanisms, long-context modeling, Mixture-of-Experts, and efficient architectures.
-- **AI Infrastructure** — containerization, CI/CD, model serving, cloud infrastructure, and reproducible deployment.
-- **Applied AI** — healthcare, pharmaceutical systems, NLP, computer vision, and domain-specific automation.
+- **Generative AI & LLM engineering** — RAG, agents, tool use, inference, fine-tuning, evaluation, and model architecture.
+- **AI systems engineering** — APIs, orchestration, multi-tenant SaaS, streaming, observability, and production workflows.
+- **Model research** — studying and implementing modern architectures such as Titans, MIRAS, MoE systems, long-context methods, and efficient attention/memory mechanisms.
+- **Applied AI** — healthcare, pharmaceutical quality systems, NLP, computer vision, and multimodal applications.
+- **AI infrastructure** — Docker, CI/CD, GitHub Actions, cloud deployment, model serving, and reproducible engineering.
 
-I am currently completing a **B.Sc. in Electronics & Communications Engineering at Helwan University**.
+I'm currently completing a **B.Sc. in Electronics & Communications Engineering at Helwan University (expected 2027)**.
 
-> My objective is to understand and engineer the complete AI stack—from data and model architecture to inference, applications, and production infrastructure.
+> I care about understanding the system underneath the abstraction—not only calling an API, but understanding the model, data pipeline, runtime, and infrastructure around it.
 
 ---
 
-## Featured Work
+## What I'm Building
 
-### ATHLLM
-**Open-source LLM research and engineering**
+### 🧠 ATHLLM — From the Model Up
 
-ATHLLM is my long-term research project for building an Arabic/English language model stack from the ground up.
+An open-source Arabic/English LLM research project focused on building the stack rather than treating the model as a black box.
 
-**Focus**
-- Custom tokenization and bilingual data engineering
-- Transformer architecture and training
-- Memory and attention research
+Current direction:
+
+- Custom tokenizer and bilingual data pipeline
+- Arabic + English pretraining
+- Transformer and memory/attention research
 - Titans / MIRAS-inspired experiments
-- Mixture-of-Experts research
-- Long-context modeling
+- MoE experimentation
 - Efficient training and inference
-- Evaluation and reproducible experimentation
+- Long-context research
+- Evaluation and reproducible experiments
 
-**Direction:** progressively develop a foundation model toward broader multimodal capabilities.
+**Research direction:** build progressively from a text foundation model toward multimodal capabilities.
 
-**Repository:** [github.com/D-engahmed/ATHLLM](https://github.com/D-engahmed/ATHLLM)
+[→ ATHLLM](https://github.com/D-engahmed/ATHLLM)
 
 ---
 
-### Ancient
-**AI coding-agent and developer infrastructure**
+### ⚙️ Ancient — AI Coding-Agent Infrastructure
 
-Ancient is a unified platform for building AI-native developer tools and coding agents.
+A unified platform for building AI coding agents and AI-native developer products.
 
-**Focus**
-- Coding-agent runtime architecture
-- CLI, IDE, and web workflows
-- Multi-provider model routing
+The architecture is intended to support:
+
+- CLI
+- IDE integrations
+- Web applications
+- Coding agents
+- Design agents
+- Cowork-style workflows
+- MCP/tool integration
+- Multi-provider routing
 - BYOK provider connections
-- MCP and tool execution
-- Context and session management
 - Streaming
+- Sessions and context
 - Guardrails
-- GitHub integration and CI/CD
-- APIs for building AI applications
+- GitHub workflows and CI/CD
+- APIs for building AI applications on top of the platform
 
-The project is focused on the **infrastructure surrounding AI agents**, rather than a thin conversational wrapper.
+The goal is not to build another thin chat wrapper. The goal is to provide the **runtime and engineering foundation around coding agents**.
 
-**Repository:** [github.com/D-engahmed/ancient](https://github.com/D-engahmed/ancient)
+[→ Ancient](https://github.com/D-engahmed/ancient)
 
 ---
 
-### QCSTS
-**Multi-tenant pharmaceutical quality & stability platform**
+### 🧪 QCSTS — Pharmaceutical Quality & Stability SaaS
 
-QCSTS is a SaaS-oriented platform for pharmaceutical quality-control and stability workflows.
+A multi-tenant quality and stability management platform for pharmaceutical organizations and laboratories.
 
-**Engineering focus**
-- Multi-tenant organization and site isolation
-- RBAC and object-level authorization
-- Stability studies and controlled protocols
-- Results, review, approval, and locking workflows
-- Audit trails and data-integrity controls
-- OOS, OOT, Deviation, CAPA, and Change Control
-- Reporting and controlled exports
+Engineering focus includes:
+
+- Organization/site isolation
+- RBAC and object authorization
+- Stability studies and protocols
+- Controlled results and approval workflows
+- Audit trails and immutable records
+- OOS / OOT / Deviation / CAPA / Change Control
+- Reporting and exports
 - Subscription and entitlement architecture
-- Payment integration
-- PostgreSQL, Redis, Celery, Docker, Nginx
-- Automated testing and CI/CD release gates
+- Paymob payment integration
+- PostgreSQL, Redis, Celery, Docker and Nginx
+- Production CI/CD and release gates
 
-The platform is **designed for GxP-regulated environments with a validation-ready architecture**; regulatory compliance depends on the complete validated system, procedures, configuration, and intended use.
+QCSTS is positioned as **designed for GxP-regulated environments with a validation-ready architecture**, not as automatically certified regulatory software.
 
-**Repository:** [github.com/D-engahmed/QCSTS](https://github.com/D-engahmed/QCSTS)
+[→ QCSTS](https://github.com/D-engahmed/QCSTS)
 
 ---
 
-## Research Interests
+### 🏥 Medical AI & Healthcare Systems
 
-| Domain | Areas |
+I also build healthcare-oriented AI systems covering:
+
+- Medical imaging
+- Clinical decision-support prototypes
+- Multimodal AI
+- Medical NLP
+- Healthcare data pipelines
+- AI-assisted hospital systems
+
+The emphasis is on combining **AI with real software architecture**, rather than building isolated notebooks.
+
+[→ Medical AI Platform](https://github.com/D-engahmed/medical_ai_platform)
+
+---
+
+## Research
+
+### Current Areas
+
+| Area | Focus |
 |---|---|
-| **LLM Architecture** | Transformers · Attention · Memory · MoE · Long Context |
-| **Generative AI** | RAG · Agents · Tool Use · Structured Generation |
-| **Model Training** | Pretraining · Fine-tuning · Optimization |
-| **Inference** | Serving · Quantization · Efficiency · Context Management |
-| **AI Agents** | Coding Agents · MCP · Orchestration · Tool Execution |
-| **Arabic AI** | Arabic NLP · Tokenization · Bilingual Data · Evaluation |
-| **Multimodal AI** | Vision · Language · Multimodal Systems |
-| **AI Infrastructure** | Containers · CI/CD · Model Serving · Cloud |
+| **LLM Architecture** | Transformers, attention, memory, MoE, long context |
+| **Generative AI** | RAG, agents, tool use, structured generation |
+| **Model Training** | Pretraining, fine-tuning, optimization |
+| **Inference** | Quantization, serving, latency and memory efficiency |
+| **AI Agents** | Coding agents, orchestration, MCP, tool execution |
+| **Multimodal AI** | Text, vision, and future audio integration |
+| **Arabic AI** | Arabic/English datasets, tokenization, evaluation |
+| **AI Infrastructure** | Docker, CI/CD, model serving, cloud systems |
 
-### Research Areas I Follow
+### Papers / Architectures I Study
 
-**Titans · MIRAS · Mixture-of-Experts · Long-Context Architectures · Modern Open-Weight LLMs · Efficient Attention & Memory · Retrieval-Augmented Generation · Agentic Software Engineering**
+- Titans
+- MIRAS
+- Mixture-of-Experts architectures
+- Long-context architectures
+- Modern open-weight LLMs
+- Efficient attention and memory mechanisms
+- Retrieval-augmented generation
+- Agentic software engineering
 
 ---
 
 ## Technical Stack
 
+<div align="center">
+
 ### Languages
-`Python` `C/C++` `TypeScript` `JavaScript` `SQL` `Bash`
 
-### AI / Machine Learning
-`PyTorch` `Transformers` `Hugging Face` `Scikit-learn` `OpenCV` `RAG` `LangChain` `LangGraph` `FAISS`
+<img src="https://skillicons.dev/icons?i=python,cpp,js,ts,bash,sql" alt="Languages"/>
 
-### Backend & Distributed Systems
-`Django` `FastAPI` `Node.js` `PostgreSQL` `Redis` `Celery` `REST APIs`
+### AI / ML
 
-### Infrastructure & DevOps
-`Docker` `Docker Compose` `Kubernetes` `Nginx` `GitHub Actions` `CI/CD` `Linux` `AWS` `Azure` `MLflow`
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" alt="AI ML"/>
 
-### AI Engineering
-`LLM Fine-tuning` `Inference` `Model Serving` `Agents` `MCP` `Evaluation` `Observability` `Multi-tenant Architecture`
+<br/>
+
+PyTorch · Transformers · Hugging Face · Scikit-learn · RAG · LangChain · LangGraph · FAISS · Vector Databases
+
+### Backend & Systems
+
+<img src="https://skillicons.dev/icons?i=fastapi,django,nodejs,postgres,redis,docker,kubernetes,nginx" alt="Backend and Systems"/>
+
+### Engineering & Infrastructure
+
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,aws,azure" alt="Engineering and Infrastructure"/>
+
+CI/CD · Docker Compose · Celery · MLflow · REST APIs · MCP · Observability · Production Testing
+
+</div>
 
 ---
 
-## Engineering Approach
+## Selected Engineering Work
+
+### LLM / Generative AI
+
+- Building RAG systems with retrieval, reranking, context construction, and evaluation.
+- Designing coding-agent runtimes rather than only prompt-based assistants.
+- Working with multiple model providers and local inference.
+- Fine-tuning and experimenting with open-weight models.
+- Studying model internals and implementing architectural ideas from research papers.
+
+### Production AI
+
+- Designing multi-tenant SaaS architectures.
+- Building API-first AI systems.
+- Implementing authorization and tenant isolation at the backend boundary.
+- Containerizing services and supporting production deployment.
+- Building CI/CD pipelines with automated tests and release gates.
+- Integrating AI into domain-specific business workflows.
+
+### Classical ML / Deep Learning
+
+- NLP classification and sequence models.
+- Computer vision and object detection.
+- Medical imaging.
+- Feature engineering and model evaluation.
+- Model compression and inference optimization.
+
+---
+
+## Engineering Principles
 
 ```text
-Research / Requirements
+Understand the abstraction
         ↓
-Data & Evaluation
+Measure the system
         ↓
-Model / System Design
+Design the boundary
         ↓
-Implementation
+Implement the smallest correct primitive
         ↓
-Testing & Failure Analysis
+Test failure modes
         ↓
-Deployment
+Automate the workflow
         ↓
-Observability
+Deploy reproducibly
         ↓
-Iteration
+Observe and iterate
 ```
 
-I prioritize:
-- **Correctness before complexity**
-- **Measurement before assumptions**
-- **Explicit interfaces and boundaries**
-- **Security at the architecture level**
-- **Reproducible environments**
-- **Automated testing and release gates**
-- **Observable production systems**
+I prefer systems that are:
+
+- **Explicit** over magical
+- **Testable** over optimistic
+- **Observable** over opaque
+- **Reproducible** over environment-dependent
+- **Secure by architecture** over convention alone
+- **Simple to understand** without sacrificing capability
 
 ---
 
-## Selected Projects
+## GitHub Projects
 
-| Project | Area |
+| Project | What it demonstrates |
 |---|---|
-| [**Ancient**](https://github.com/D-engahmed/ancient) | AI coding-agent infrastructure |
-| [**ATHLLM**](https://github.com/D-engahmed/ATHLLM) | LLM research and model engineering |
-| [**QCSTS**](https://github.com/D-engahmed/QCSTS) | Pharmaceutical SaaS / quality systems |
-| [**Medical AI Platform**](https://github.com/D-engahmed/medical_ai_platform) | Healthcare AI |
-| [**RAG Learning**](https://github.com/D-engahmed/RAG_learning) | Retrieval-augmented generation |
-| [**PyTorch RNN Text Classification**](https://github.com/D-engahmed/pytorch_rnn_text_classification) | Deep learning / NLP |
-| [**Airline Delay Cause**](https://github.com/D-engahmed/Airline_Delay_Cause) | Data science / predictive modeling |
+| [**Ancient**](https://github.com/D-engahmed/ancient) | AI coding-agent infrastructure and multi-provider runtime |
+| [**ATHLLM**](https://github.com/D-engahmed/ATHLLM) | LLM training, data, tokenizer and architecture research |
+| [**QCSTS**](https://github.com/D-engahmed/QCSTS) | Multi-tenant pharmaceutical SaaS and production engineering |
+| [**Medical AI Platform**](https://github.com/D-engahmed/medical_ai_platform) | Applied AI and healthcare systems |
+| [**RAG Learning**](https://github.com/D-engahmed/RAG_learning) | Retrieval-augmented generation experiments |
+| [**PyTorch RNN Text Classification**](https://github.com/D-engahmed/pytorch_rnn_text_classification) | Deep learning and sequence-model fundamentals |
+| [**Airline Delay Cause**](https://github.com/D-engahmed/Airline_Delay_Cause) | Large-scale data analysis and predictive modeling |
 
 ---
 
 ## Education
 
 **B.Sc. Electronics & Communications Engineering**  
-Helwan University · Egypt
+Helwan University · Expected 2027 · Egypt
 
-Areas of study include:
+Relevant areas:
 
-`Machine Learning` `Deep Learning` `NLP` `Computer Vision` `Signal Processing` `Pattern Recognition` `Embedded Systems`
+Machine Learning · Deep Learning · NLP · Computer Vision · Signal Processing · Pattern Recognition · Embedded Systems
 
 ---
 
-## Current Focus
+## Current Roadmap
 
-### 01 — LLM Engineering
-Building reliable production systems around modern language models.
-
-### 02 — Model Research
-Developing ATHLLM and experimenting with memory, attention, MoE, and long-context architectures.
-
-### 03 — Agentic Systems
-Developing Ancient as infrastructure for coding agents and AI-native developer workflows.
-
-### 04 — Production AI
-Turning AI research into secure, testable, observable software products.
+```text
+AI Engineering
+     │
+     ├── Production LLM Systems
+     │      ├── RAG
+     │      ├── Agents
+     │      ├── Tool Use
+     │      └── Evaluation
+     │
+     ├── Model Research
+     │      ├── ATHLLM
+     │      ├── Memory / Attention
+     │      ├── MoE
+     │      └── Long Context
+     │
+     ├── AI Infrastructure
+     │      ├── Containers
+     │      ├── CI/CD
+     │      ├── Model Serving
+     │      └── Cloud
+     │
+     └── AI Products
+            ├── Developer Tools
+            ├── Healthcare
+            └── Pharmaceutical Systems
+```
 
 ---
 
@@ -218,17 +303,20 @@ Turning AI research into secure, testable, observable software products.
 
 <div align="center">
 
-**Interested in AI engineering, LLM research, and building production-grade AI systems.**
-
-<br/>
-
 <a href="https://www.linkedin.com/in/ahmed-elkossairy/">LinkedIn</a> ·
 <a href="https://github.com/D-engahmed">GitHub</a> ·
 <a href="https://www.kaggle.com/ahmedelkossairy">Kaggle</a>
 
+<br/><br/>
+
+**Open to AI engineering, research, and serious systems-building opportunities.**
+
 </div>
 
+---
+
 <div align="center">
-<br/>
-<sub>Model research → AI systems → production infrastructure</sub>
+
+<sub>Building AI systems from the model layer to production.</sub>
+
 </div>
